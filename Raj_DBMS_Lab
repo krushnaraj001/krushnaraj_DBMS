@@ -1,0 +1,12 @@
+create table sntu_detail(s_no number(2), S_name varchar(20), S_School varchar(20),S_Hobby varchar(20),S_Std number(2),S_Gender varchar(20));
+insert into sntu_detail values (1,'j', 'Rise', 'Watching', 13, ' Male');
+insert into sntu_detail values (2,'vin', 'navoday', 'singing', 12, 'Male');
+insert into sntu_detail values (3, 'avi', 'Sun', 'Garba', 11, 'Male');
+insert into sntu_detail values (4, 'Meena', 'Navaratri', 'writting', 10, 'Female');
+insert into sntu_detail values (5, 'Neha', 'Sun', 'Learning', 9, 'Female');
+insert into sntu_detail values (6, 'Virendra', null, 'Dancing', 8, 'Male');
+insert into sntu_detail values (7, 'Sunny', 'Moon', 'Running', 7, 'Male');
+insert into sntu_detail values (8, 'jaspal', 'Rise', null, 6, 'Male');
+insert into sntu_detail values (9, 'Snehal', 'Navratri', 'painting', 5, 'Female');
+    
+select*from sntu_detail;
